@@ -1,0 +1,257 @@
+body
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.fa-bars
+{
+	color: #fff;
+
+}
+
+
+   @media (min-width: 800px) and (max-width: 1440px) 
+   {
+
+   	header 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	background-color:#000;
+}
+
+.icon
+{
+  display: none;
+}
+
+.logo 
+{
+padding: 10px;
+}
+
+.search
+{
+padding: 10px;
+
+}
+
+
+nav
+{
+ display: flex;
+
+}
+
+nav > ul 
+{
+ list-style: none;
+}
+
+nav > ul > li
+{
+
+display: inline;
+ padding: 10px;
+}
+
+nav > ul > li > a
+{
+ text-decoration: none;
+ /*color: white;*/
+ 
+}
+
+.login_button 
+{
+  padding: 10px;
+  margin-left: 20px;	
+}
+    
+.category
+{
+	display: grid;
+	margin: 0;
+	grid-template-columns: 60% 40% ;
+	grid-template-rows: 80% 40% ;
+	grid-template-areas: 
+	"category1 category2"
+	"category1 category3";
+
+}
+
+.service 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.product
+{
+		display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;.
+
+}
+
+.product_card
+{
+ 	width:33.33%;
+
+	height: auto;
+
+}
+
+
+} 
+
+
+
+   @media (min-width: 100px) and (max-width:799px) 
+   {
+header
+{
+background-color: #000;
+
+
+}
+
+.logo_name 
+{
+  float: left;
+  padding: 20px;
+}
+
+.icon
+{
+  float: right;
+  padding: 20px;
+  display: block;
+}
+.search 
+{
+ padding: 20px;
+
+}
+
+nav > ul 
+{
+ list-style: none;
+}
+
+nav > ul > li
+{
+
+ 
+ padding: 10px;
+}
+
+nav > ul > li > a
+{
+ text-decoration: none;
+ text-align: center;
+ color: #fff;
+ /*color: white;*/
+ 
+}
+
+.login_button 
+{
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;	
+}
+
+.service 
+{
+display: flex;
+	flex-direction: column;
+	 align-items: center;
+  /*justify-content: center;*/
+}
+
+.product_card
+{
+ 	width:100%;
+
+	height: auto;
+	text-align: center;
+
+}
+
+       
+    }
+
+
+
+
+
+
+.responsive
+{
+	width: 100%;
+	height:500px;
+}
+
+
+
+
+
+
+.cat1
+{
+  grid-area: category1 ;
+}
+
+.cat2
+{
+	
+	grid-area: category2 ;
+}
+
+.cat3
+{
+grid-area: category3 ;
+	
+}
+
+
+
+.card 
+{
+	padding: 10px;
+
+    box-sizing: border-box;
+		border-color: black;
+	border-width:3px;
+	border-radius:2px;
+	box-shadow: 5px 10px 5px #ccc;
+
+}
+
+
+
+
+
+.round_card 
+{
+	border-width:3px;
+	
+	box-shadow: 5px 10px 5px #ccc;
+	border-radius: 100%;
+	width:100px;
+	height:100px;
+	padding: 70px;
+
+}
+
+footer 
+{
+	background-color: #000;
+	color: #fff;
+}
